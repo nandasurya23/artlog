@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+  margin: 0 40px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-dots li button::before {
+  color: #fff !important;
+  font-size: 12px !important;
+  margin-top: 10px !important;
+}
+
+.bg_shop {
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(#090909b3, #141414b3),
+    url(https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Bg_sepatu.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671426254740)
+      no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.bg_hero {
+  width: 100%;
+  height: 80%;
+  background: linear-gradient(#090909b3, #141414b3),
+    url("https://ik.imagekit.io/lshkgi0dm/bg.jpeg?updatedAt=1688142320757")
+      no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and(min-width: 768px) {
+  .bg_shop {
+    width: 50%;
+    height: 20%;
+    background-position: 0 -430px;
+  }
+}
