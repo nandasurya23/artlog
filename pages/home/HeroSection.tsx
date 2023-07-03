@@ -6,13 +6,13 @@ const HeroSection = () => {
       <section id="home" className={clsx("bg-dark2 w-full bg_hero")}>
         <div
           className={clsx(
-            "w-11/12 px-3 mx-auto pb-20 pt-10 font-Montserrat text-white md:pt-64 md:pb-44"
+            "w-11/12 px-3 mx-auto pb-20 pt-20 font-Montserrat text-white md:pt-64 md:pb-44"
           )}
         >
           <div className={clsx("flex flex-col items-center")}>
             <h1
               className={clsx(
-                "font-extrabold text-2xl leading-normal tracking-widest text-center mt-5",
+                "font-extrabold text-3xl leading-normal tracking-widest text-center mt-5",
                 "md:text-6xl md:text-center md:mt-0"
               )}
             >
@@ -20,7 +20,8 @@ const HeroSection = () => {
             </h1>
             <p
               className={clsx(
-                "text-center mt-5 font-normal text-2xl  leading-normal "
+                "text-center mt-5 font-normal text-base leading-normal ",
+                "md:text-2xl"
               )}
             >
               Artlog merupakan startup desain yang sedang merevolusi dunia
