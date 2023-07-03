@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Artlog</title>
         <link
           rel="shortcut icon"
-          href="https://ik.imagekit.io/lshkgi0dm/trixie_logo_putih.svg?updatedAt=1680079612664"
+          href="https://ik.imagekit.io/lshkgi0dm/arr.png?updatedAt=1688135387463"
           type="image/x-icon"
         />
       </Head>

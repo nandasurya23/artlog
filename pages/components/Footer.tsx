@@ -16,39 +16,34 @@ const Footer = () => {
           )}
         >
           <div className={clsx("flex flex-col w-full")}>
-            <div className={clsx("flex flex-col items-center",'md:flex-row')}>
+            <div className={clsx("flex flex-col items-center", "md:flex-row")}>
               <img
-                src="https://ik.imagekit.io/lshkgi0dm/trixie_logo_putih.svg?updatedAt=1680079612664"
+                src="https://ik.imagekit.io/lshkgi0dm/arr.png?updatedAt=1688135387463"
                 alt=""
                 className={clsx("w-16", "md:w-24")}
-              />
-              <img
-                src="https://ik.imagekit.io/lshkgi0dm/logo_wariorr_1-removebg-preview_1.svg?updatedAt=1681029263827"
-                alt=""
-                className="w-20"
               />
             </div>{" "}
             <div className={clsx("w-1/4 bg-gray2 p-[1px] mt-7")}></div>
             <p className={clsx("text-lg font-medium mt-5 w-1/6", "md:text-xl")}>
-              Kapal, Badung 80351, Bali, Indonesia
+              Nusa Penida, Bali, Indonesia
             </p>
           </div>
           <div className={clsx("flex flex-col w-1/4")}>
             <h3 className={clsx("my-5 text-lg")}>Menu</h3>
             <ul className={clsx("space-y-2")}>
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/">Beranda</Link>
               </li>
               <li>
                 <Link href="#about" scroll={false}>
-                  About
+                  Tentang Kami
                 </Link>
               </li>
               <li>
-                <Link href="/shop">Shop</Link>
+                <Link href="/shop">Layanan</Link>
               </li>
               <li>
-                <Link href="#help">Help</Link>
+                <Link href="#help">Kontak</Link>
               </li>
             </ul>
           </div>
