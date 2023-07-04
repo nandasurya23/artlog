@@ -66,7 +66,9 @@ const Navbar = () => {
                 "mx-5 hover:text-gray2 cursor-pointer transition-all duration-200 hover:scale-110"
               )}
             >
-              <Link href="/shop">Layanan</Link>
+              <Link href="#testimony" scroll={false}>
+                Layanan
+              </Link>
             </li>
             <li
               className={clsx(
