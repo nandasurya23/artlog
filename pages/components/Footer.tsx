@@ -24,8 +24,12 @@ const Footer = () => {
               />
             </div>{" "}
             <div className={clsx("w-1/4 bg-gray2 p-[1px] mt-7")}></div>
-            <p className={clsx("text-lg font-medium mt-5 w-1/6", "md:text-xl")}>
-              Nusa Penida, Bali, Indonesia
+            <p
+              className={clsx("text-base font-medium mt-5 w-1/6", "md:text-xl")}
+            >
+              <a href="https://www.google.com/maps/place/Gg.+Celuring+6-7,+Kesiman,+Kec.+Denpasar+Tim.,+Kota+Denpasar,+Bali+80239/@-8.6620125,115.2439225,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd24065c1735041:0x4e5af80b868e0c3c!8m2!3d-8.6620178!4d115.2464974!16s%2Fg%2F11c6783fs8?entry=ttu">
+                Gg. Celuring 6-7, Kesiman
+              </a>
             </p>
           </div>
           <div className={clsx("flex flex-col w-1/4")}>
@@ -40,7 +44,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/shop">Layanan</Link>
+                <Link href="#testimony">Layanan</Link>
               </li>
               <li>
                 <Link href="#help">Kontak</Link>
@@ -52,7 +56,7 @@ const Footer = () => {
             <ul className={clsx("space-y-2")}>
               <li>
                 <a
-                  href="https://www.instagram.com/trixiefootwear/"
+                  href="https://www.instagram.com/artlog.crt/ "
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -61,16 +65,16 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/Trixie_Footwear?t=kn3zE7oZIjxV2bABC7Y2vA&s=09"
+                  href="https://www.facebook.com/profile.php?id=100090565284136 "
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Twitter
+                  Facebook
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me//085896131604"
+                  href="https://wa.me/message/PJ27R2LOQBJUM1"
                   target="_blank"
                   rel="noreferrer"
                 >
