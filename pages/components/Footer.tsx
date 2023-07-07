@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
         <div className={clsx("w-full bg-gray2 p-[1px] mt-10")}></div>
         <p className={clsx("text-center text-sm mt-5")}>
-          ©Trixie Footwear 2022. All rights reserved
+          ©Artlog 2023. All rights reserved
         </p>
       </div>
     </footer>
